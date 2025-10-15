@@ -2,10 +2,11 @@ import AboutUs from "@/section/AboutUs";
 import CompetitionStages from "@/section/CompetitionStages";
 import Hero from "@/section/Hero";
 import Navbar from "@/section/Navbar";
+import FAQ from "@/section/FAQ";
 
 export default function Home() {
   return (
-    <div className="bg-red-100 h-screen">
+    <div className="bg-red-100 h-screen ">
       <Navbar />
       
       <Hero />
@@ -13,6 +14,9 @@ export default function Home() {
       <AboutUs />
 
       <CompetitionStages />
+
+      <FAQ />
+
     </div>
   );
 }
