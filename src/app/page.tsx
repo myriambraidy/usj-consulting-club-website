@@ -3,6 +3,7 @@ import CompetitionStages from "@/section/CompetitionStages";
 import Hero from "@/section/Hero";
 import Navbar from "@/section/Navbar";
 import FAQ from "@/section/FAQ";
+import Footer from "@/section/Footer";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
 
       <FAQ />
 
+      <Footer />
     </div>
   );
 }
